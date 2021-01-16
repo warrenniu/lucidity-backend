@@ -4,6 +4,9 @@ Rails.application.routes.draw do
       resources :dreams
       resources :journals
       resources :users
+      # post '/login', to: 'auth#create'
+      # get '/profile', to: 'users#profile'
+
     end
   end
 end

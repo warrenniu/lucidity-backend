@@ -11,7 +11,6 @@ class Api::V1::DreamsController < ApplicationController
 	end
 
 	def create 
-		byebug
 		dream = Dream.create!(dream_params)
 		render json: dream
     end
