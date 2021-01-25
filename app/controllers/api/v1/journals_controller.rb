@@ -29,6 +29,6 @@ class Api::V1::JournalsController < ApplicationController
 	private
     
 	def journal_params 
-		params.permit(:year, :month, :user_id)
+		params.permit(:title, :year, :month, :user_id)
 	end
 end
