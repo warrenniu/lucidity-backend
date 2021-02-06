@@ -30,6 +30,6 @@ class Api::V1::DreamsController < ApplicationController
 	private
     
 	def dream_params 
-		params.permit(:title, :story, :character, :place, :action, :image, :date, :rating, :journal_id)
+		params.permit(:title, :story, :character, :place, :image, :date, :rating, :journal_id)
 	end
 end
